@@ -1,0 +1,24 @@
+name:                subterfuge
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/subterfuge#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author name here
+category:            Web
+
+dependencies:
+  - base >= 4.7 && < 5
+  - base-prelude
+  - lens
+  - text
+  - mtl
+  - transformers
+  - containers
+
+executables:
+  subterfuge:
+    source-dirs:      src
+    main:             Main.hs
